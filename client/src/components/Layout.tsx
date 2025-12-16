@@ -46,7 +46,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div className="h-6 w-[2px] bg-border mx-2"></div>
             <div className="flex items-center gap-2">
               <a
-                href="https://github.com/Mohamad-cntrl"
+                href="https://github.com/Mohamad-ctrl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-accent hover:text-accent-foreground transition-colors border-2 border-transparent hover:border-border"
@@ -54,7 +54,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://www.linkedin.com/in/mohamad-sharif"
+                href="https://www.linkedin.com/in/mohamad-sharif-2b38111a0/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 hover:bg-accent hover:text-accent-foreground transition-colors border-2 border-transparent hover:border-border"
@@ -94,7 +94,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             ))}
             <div className="flex justify-center gap-6 mt-8">
               <a
-                href="https://github.com/Mohamad-cntrl"
+                href="https://github.com/Mohamad-ctrl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 border-2 border-border hover:bg-accent hover:text-accent-foreground transition-colors"
@@ -102,7 +102,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="https://www.linkedin.com/in/mohamad-sharif"
+                href="https://www.linkedin.com/in/mohamad-sharif-2b38111a0/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-4 border-2 border-border hover:bg-accent hover:text-accent-foreground transition-colors"

@@ -1,6 +1,5 @@
 import Layout from "@/components/Layout";
 import ProjectCard from "@/components/ProjectCard";
-import { Badge } from "@/components/ui/badge";
 
 export default function Projects() {
   const allProjects = [
@@ -44,19 +43,6 @@ export default function Projects() {
       </div>
 
       <div className="container py-20">
-        {/* Filter/Tags Section (Visual only for now) */}
-        <div className="flex flex-wrap gap-2 mb-12">
-          {["All", "Mobile App", "Web Development", "Flutter", "Full Stack"].map((filter, i) => (
-            <Badge 
-              key={filter}
-              variant={i === 0 ? "default" : "outline"}
-              className={`rounded-none px-4 py-2 text-sm font-mono uppercase tracking-wider cursor-pointer hover:bg-accent hover:text-accent-foreground transition-colors ${i === 0 ? "bg-accent text-accent-foreground hover:bg-accent/90" : "bg-background"}`}
-            >
-              {filter}
-            </Badge>
-          ))}
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {allProjects.map((project, index) => (
             <ProjectCard key={index} {...project} />

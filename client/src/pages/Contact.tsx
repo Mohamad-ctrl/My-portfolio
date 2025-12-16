@@ -68,7 +68,7 @@ export default function Contact() {
                     </a>
                   </Button>
                   <Button asChild variant="outline" size="lg" className="h-14 w-14 p-0 border-2 border-border hover:bg-accent hover:text-accent-foreground rounded-none shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] transition-all">
-                    <a href="https://www.linkedin.com/in/mohamad-sharif" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/mohamad-sharif-2b38111a0/" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-6 w-6" />
                     </a>
                   </Button>
